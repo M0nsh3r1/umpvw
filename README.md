@@ -1,8 +1,8 @@
-Retired in favor of [mpv-msix](https://github.com/SilverEzhik/mpv-msix).
+Forked version with add to queue for next video instead of instant replacing [umpvw-Q](https://github.com/M0nsh3r1/umpvw)
 
-# umpvw
+# umpvw-Q
 
-umpvw replicates mpv's macOS single-instance behavior on Windows.
+umpvw-Q replicates mpv's macOS single-instance behavior on Windows, but with queue mode. The next video will be played after the previous one ends.
 
 It is a wrapper for mpv that uses the player's JSON IPC capabilities, that are used to replace the currently playing file. 
 
@@ -11,10 +11,6 @@ It also handles selecting multiple items in File Explorer and trying to play the
 ## Requirements
 
 .NET Framework, whatever the latest one is ¯\\\_(ツ)_/¯
-
-## File associations and the compiled executable
-
-Use my fork of the mpv-install script: https://github.com/SilverEzhik/mpv-install
 
 ## Fix 15 item selection limit
 
